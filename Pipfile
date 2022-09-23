@@ -5,9 +5,17 @@ name = "pypi"
 
 [packages]
 python-dotenv = "*"
+jupyter = "*"
+ipykernel = "*"
+pandas = "*"
+kaggle = "*"
+tensorflow = "*"
+sklearn = "*"
+pydot = "*"
+plotly = "*"
 
 [dev-packages]
-black = "*"
+black = {extras = ["jupyter"], version = "*"}
 mypy = "*"
 bandit = "*"
 flake8 = "*"
